@@ -13,7 +13,7 @@ def delete_files_in_folder(folder_path):
             if os.path.isfile(file_path):
                 os.unlink(file_path)
         except Exception as e:
-            print(f"Error deleting file {file_path}: {e}")
+            print(f"Error deleting files {file_path}: {e}")
 
 
 def capture_photo(output_path='E:/Minor project/fire-detection/test/images', camera_index=1):
